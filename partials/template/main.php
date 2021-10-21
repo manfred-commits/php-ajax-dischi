@@ -11,6 +11,14 @@
                         <?php echo $album['title'];?>
                     </h3>
                 </li>
+                <li>
+                    <p>
+                        <?php echo $album['author'];?>
+                    </p>
+                    <p>
+                        <?php echo $album['year'];?>
+                    </p>
+                </li>
             </ul>
         </div>
     <?php }?>

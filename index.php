@@ -3,12 +3,9 @@ Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i disch
 
 <?php 
 
-
 require_once __DIR__ . "/./partials/database.php";
 require_once __DIR__ . "/./partials/vars.php";
 require_once __DIR__ . "/./partials/functions.php";
-
-
 
 ?>
 
@@ -34,9 +31,7 @@ require_once __DIR__ . "/./partials/functions.php";
 <body>
 
     <?php require_once __DIR__ . "/./partials/template/header.php"; ?>
-    
     <?php require_once __DIR__ . "/./partials/template/main.php"; ?>
-
 
 </body>
 </html>

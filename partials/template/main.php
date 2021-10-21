@@ -3,13 +3,13 @@
         <div class="card">
             
             <div class="container-album-img">
-                <img src="<?php echo $album['poster']; ?>" alt="">
+                <img src="<?php echo $album['poster']; ?>" alt="<?php echo $album['title'];?>">
             </div>
             <div class="container-album-txt">
                 <ul>
                     <li>
                         <h3>
-                            <?php echo $album['title'];?>
+                            <?php echo strtoupper($album['title']);?>
                         </h3>
                     </li>
                     <li>

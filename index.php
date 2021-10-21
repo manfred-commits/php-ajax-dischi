@@ -18,6 +18,17 @@ require_once __DIR__ . "/./partials/functions.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- link to font style -->
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- /link to css -->
+
     <title>php-ajax-dischi</title>
 </head>
 <body>

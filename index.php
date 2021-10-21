@@ -32,6 +32,8 @@ require_once __DIR__ . "/./partials/functions.php";
     <title>php-ajax-dischi</title>
 </head>
 <body>
+
+    <?php require_once __DIR__ . "/./partials/template/header.php"; ?>
     
     <?php require_once __DIR__ . "/./partials/template/main.php"; ?>
 

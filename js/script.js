@@ -7,11 +7,7 @@ const app = new Vue({
     },
     created(){
         axios
-      .get('http://localhost/PHP/php-ajax-dischi/partials/api/index.php', {
-            params: {
-            // genre: 'bar'
-            }
-        })
+      .get('http://localhost/PHP/php-ajax-dischi/partials/api/index.php')
       .then(response => {
         console.log(response.data);
         this.albums=response.data;
@@ -34,6 +30,21 @@ const app = new Vue({
                 }
               }
             );
+        },
+        callOnGenre(){
+            axios
+            .get('http://localhost/PHP/php-ajax-dischi/partials/api/index.php', {
+                  params: {
+                  genre: this.genreSelected
+                  }
+              })
+            .then(response => {
+              console.log(response.data);
+              this.albums=response.data;
+            })
+            .catch(error => {
+              console.log(error);
+            })
         }
     }
 });

@@ -14,6 +14,17 @@ body{
 ul{
     list-style: none;
 }
+select{
+    width: 200px;
+    background-color: #1E2D3B;
+    color: white;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+    font-weight: 600;
+    text-align: center;
+
+}
 /* /GENERAL RULES */
 
 /* HEADER SECTION */
@@ -24,6 +35,7 @@ header{
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header img{
     object-fit: cover;

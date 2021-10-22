@@ -23,6 +23,12 @@
 
         <header>
             <img src="./img/spotify-logo.png" alt="spotify img">
+            <div class="select-container">
+                <select name="genre" >
+                    <option value="">Tutti i generi</option>
+                    <option value=""></option>
+                </select>
+            </div>
         </header>
         <main>
         

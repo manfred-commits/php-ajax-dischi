@@ -7,7 +7,7 @@
         $databaseFiltered=[];
         foreach($database as $album){
             if($album['genre']==$genre){
-                $databaseFiltered=$album;
+                $databaseFiltered[]=$album;
             }
         }
         echo json_encode($databaseFiltered);

@@ -26,7 +26,7 @@
             <div class="select-container">
                 <select name="genre" >
                     <option value="">Tutti i generi</option>
-                    <option value=""></option>
+                    <option v-for="(genre,index) in selectCategories" :key="index" :value="genre">{{genre}}</option>
                 </select>
             </div>
         </header>

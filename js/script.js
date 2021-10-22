@@ -3,6 +3,7 @@ const app = new Vue({
     data:{
         albums:"",
         selectCategories:[],
+        genreSelected:"",
     },
     created(){
         axios

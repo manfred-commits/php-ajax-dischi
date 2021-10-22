@@ -24,7 +24,7 @@
         <header>
             <img src="./img/spotify-logo.png" alt="spotify img">
             <div class="select-container">
-                <select name="genre" >
+                <select name="genre" v-model="genreSelected">
                     <option value="">Tutti i generi</option>
                     <option v-for="(genre,index) in selectCategories" :key="index" :value="genre">{{genre}}</option>
                 </select>

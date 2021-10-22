@@ -35,7 +35,7 @@ header img{
 /* MAIN SECTION */
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 60%;
     margin: auto;
     flex-wrap: wrap;
